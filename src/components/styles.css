@@ -1,0 +1,189 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+.title-heading {
+    /* text-align: center; */
+    padding: 2% 0%;
+    font-weight: bold;
+}
+
+.navbar-container {
+    margin: 2% 12%;
+}
+
+.container-fluid {
+    padding: 0%;
+}
+
+/* .alert{
+    text-align: center;
+} */
+
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 150%;
+    color: grey;
+}
+
+
+.active {
+    color: gray;
+}
+
+.space {
+    padding: 2%;
+}
+
+.home {
+    margin: 1% 10%;
+    padding-bottom: 10%;
+    text-align: left;
+}
+
+.heading {
+    padding-top: 20%;
+    font-weight: 700;
+    font-size: 350%;
+}
+
+.home-img {
+    margin-top: 24%;
+    width: 100%;
+    padding-bottom: 15%;
+}
+
+.space-inbw {
+    margin: 15% 0%;
+}
+
+.space-inbw-less {
+    margin: 5% 0%;
+}
+
+.row-course {
+    margin: 1% 0%;
+}
+
+.track {
+    font-weight: bold;
+}
+
+.learn-btn {
+    margin-top: 1%;
+}
+
+.card {
+    margin: 1%;
+    /* box-shadow: 1px 1px 2px; */
+}
+
+.ide {
+    padding: 10% 10% 10%;
+}
+
+.row-ide {
+    margin: 0;
+    padding: 0;
+}
+
+.ans {
+    background-color: gray;
+}
+
+.program {
+    font-weight: bold;
+}
+
+.output {
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    color: aliceblue;
+    padding: 2%;
+    background-color: rgb(37, 36, 51);
+}
+
+/* Bootstrap */
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none;
+}
+
+/* Practic CSS */
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-flow: row;
+}
+
+@media only screen and (max-width: 600px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+}
+
+@media only screen and (max-width: 1024px) and (min-width:600px) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-flow: row;
+    }
+}
+
+.question-title {
+    font-weight: 400;
+}
+
+.question-text {
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.question-button {
+    width: 100%;
+}
+
+.question-body {
+    /* border: rgb(207, 207, 207) solid 1px;
+    border-radius: 10px;
+    padding: 10px; */
+    margin: 5px 10px;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+    .fixed-box {
+        height: 400px;
+        overflow: auto;
+        background: #fff;
+    }
+}
+
+.text-heading{
+    text-align: center;
+}
+
+.const{
+    text-align: center;
+}
