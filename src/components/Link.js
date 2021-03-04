@@ -1,5 +1,4 @@
 import React from 'react';
-import Nav from 'react-bootstrap/Nav'
 import './styles.css'
 
 const Link = ({ className, href, children }) => {

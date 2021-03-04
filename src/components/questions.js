@@ -1,4 +1,4 @@
-export default [
+const questions=[
   {
     "id":1,
     "question": "Subarray with given sum",
@@ -36,3 +36,5 @@ export default [
     "explaination":"After merging the two non-decreasing arrays, we get, 0 1 2 3 5 6 7 8 9.",
   },
 ];
+
+export default questions;

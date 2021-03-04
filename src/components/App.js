@@ -1,5 +1,5 @@
-import React, { Component, useState } from "react";
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Header'
 import Home from './Home'
 import Practice from './Practice'
@@ -8,8 +8,6 @@ import Question from './Question'
 import './styles.css';
 
 const App = () => {
-    const [question,setQuestion]=useState({id:0});
-    console.log(question);
     return (
         <div className='navbar-container'>
             <Header />
@@ -18,13 +16,13 @@ const App = () => {
                     <Home />
                 </Route>
                 <Route exact path='/practice'>
-                    <Practice setQuestion={setQuestion}/>
+                    <Practice />
                 </Route>
                 <Route exact path='/cp'>
                     <CP />
                 </Route>
-                <Route exact path={'/practice/'+question.id}>
-                    <Question question={question} />
+                <Route exact path={'/question'}>
+                    <Question />
                 </Route>
             </BrowserRouter>
 

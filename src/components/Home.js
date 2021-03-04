@@ -78,7 +78,7 @@ const Home = () => {
                         <Alert variant='secondary'>Welcome to Gorithm!</Alert>
                     </Col>
                     <Col lg={7}>
-                        <iframe src="https://trinket.io/embed/python3/e1f3516407?runOption=run" width="100%" height="356"
+                        <iframe title='code' src="https://trinket.io/embed/python3/e1f3516407?runOption=run" width="100%" height="356"
                             frameBorder="0" marginWidth="0" marginHeight="0" allowFullScreen></iframe>
                     </Col>
                 </Row>
